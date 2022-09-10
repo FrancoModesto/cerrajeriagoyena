@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Secular+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body id="top">
     <header>
@@ -26,32 +27,32 @@
             </ul>
         </nav>
     </header>
-    <div class="goTopButton">
+    <div class="goTopButton animate__animated animate__bounceInRight">
         <a href="#top"><img class="goTopArrow" src="./multi/top-arrow.png" alt="Flecha Arriba"></a>
     </div>
-    <div class="wapButton">
+    <div class="wapButton animate__animated animate__bounceInLeft">
         <a target="_blank" href="https://wa.me/5491156295213"><img class="wapLogo" src="./multi/logo-whatsapp-color.png" alt="Logo WhatsApp"></a>
     </div>
     <main>
         <section>
             <div class="about">
-                <h1>¿Quiénes somos?</h1>
-                <p>Somos una empresa de confianza para todos aquellos que alguna vez nos han visitado a lo largo de nuestros 30 años de historia y recorrido en este oficio. Tenemos como primer objetivo el sobresaliente desempeño en cada uno de nuestros trabajos, brindando facilidades a nuestros clientes y garantizándoles la máxima seguridad y eficacia posible.</p>
+                <h1 class="wow animate__animated animate__bounceInDown">¿Quiénes somos?</h1>
+                <p class="wow animate__animated animate__backInDown">Somos una empresa de confianza para todos aquellos que alguna vez nos han visitado a lo largo de nuestros 30 años de historia y recorrido en este oficio. Tenemos como primer objetivo el sobresaliente desempeño en cada uno de nuestros trabajos, brindando facilidades a nuestros clientes y garantizándoles la máxima seguridad y eficacia posible.</p>
             </div>
-            <div class="about-sentence">
+            <div class="about-sentence wow animate__animated animate__backInDown">
                 <p>"El Cerrajero es un individuo extremadamente honrado. Posee buenos hábitos y un agudo sentido sobre el bien y el mal. Coopera siempre con los agentes de la Ley, y nunca se permite a sí mismo hacer una llave, o abrir una cerradura, si es que le cabe alguna duda sobre la honradez del cliente. El oficio del Cerrajero es antiguo y honorable. Para lograr mantener en la mente del público la confianza que en él se ha edificado durante cientos de años, es imprescindible tener una buena reputación. El Cerrajero es un guardián de la seguridad. Debe mantenerse siempre libre de toda sospecha."</p>
             </div>
-            <div class="about schedule">
-                <h1>Nuestros horarios</h1>
-                <p>Trabajamos de <span>Lunes a Viernes</span>, a la mañana de <span>08:30hs a 13:30hs</span>, y a la tarde de <span>15:00hs a 18:30hs</span>.</p>
-                <p>También podes encontrarnos los <span>Sábados</span> de <span>09:00hs a 13:00hs</span>.</p>
+            <div class="about">
+                <h1 class="wow animate__animated animate__bounceInDown">Nuestros horarios</h1>
+                <p class="wow animate__animated animate__backInDown">Trabajamos de <span>Lunes a Viernes</span>, a la mañana de <span>08:30hs a 13:30hs</span>, y a la tarde de <span>15:00hs a 18:30hs</span>.</p>
+                <p class="wow animate__animated animate__backInDown">También podes encontrarnos los <span>Sábados</span> de <span>09:00hs a 13:00hs</span>.</p>
             </div>
         </section>
-        <hr>
+        <hr class="wow animate__animated animate__fadeInDown">
         <section class="about">
-            <h1>¿Dónde estamos?</h1>
-            <p>• Pedro Goyena 812, Burzaco, Provincia de Buenos Aires, Argentina.</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d818.8535393031167!2d-58.37616819522703!3d-34.82067811721905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd4ac1316da15%3A0x50a03f60d28e3dd2!2sPedro%20Goyena%20812%2C%20B1852IDQ%20Burzaco%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1661614419005!5m2!1ses-419!2sar" width="800" height="400" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h1 class="wow animate__animated animate__bounceInDown">¿Dónde estamos?</h1>
+            <p class="wow animate__animated animate__backInDown">• Pedro Goyena 812, Burzaco, Provincia de Buenos Aires, Argentina.</p>
+            <iframe class="wow animate__animated animate__backInDown" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d818.8535393031167!2d-58.37616819522703!3d-34.82067811721905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd4ac1316da15%3A0x50a03f60d28e3dd2!2sPedro%20Goyena%20812%2C%20B1852IDQ%20Burzaco%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1661614419005!5m2!1ses-419!2sar" width="800" height="400" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
     <footer>
@@ -65,5 +66,9 @@
         </div>
         <h4 class="copy">© Copyright 2022 Franco Modesto. <span>Todos los derechos reservados.</span> </h4>
     </footer>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
 </html>

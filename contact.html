@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Secular+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body id="top">
     <header>
@@ -27,18 +28,18 @@
             </ul>
         </nav>
     </header>
-    <div class="goTopButton">
+    <div class="goTopButton animate__animated animate__bounceInRight">
         <a href="#top"><img class="goTopArrow" src="./multi/top-arrow.png" alt="Flecha Arriba"></a>
     </div>
     <main>
         <div class="contact wap">
-            <h1>Nuestro WhatsApp: <br> <span>11 5629-5213</span></h1>
-            <a target="_blank" href="https://wa.me/5491156295213"><img src="./multi/logo-whatsapp-color.png" alt="Logo Whatsapp"></a>
+            <h1 class="wow animate__animated animate__bounceInDown">Nuestro WhatsApp: <br> <span>11 5629-5213</span></h1>
+            <a class="animate__animated animate__backInDown" target="_blank" href="https://wa.me/5491156295213"><img src="./multi/logo-whatsapp-color.png" alt="Logo Whatsapp"></a>
         </div>
-        <hr>
+        <hr class="wow animate__animated animate__fadeInDown">
         <div class="contact mail">
-            <h1>Mandanos un Email:</h1> 
-            <form autocomplete="off">
+            <h1 class="contact mail wow animate__animated animate__bounceInDown">Mandanos un Email:</h1> 
+            <form class=" wow animate__animated animate__backInDown" autocomplete="off">
                 <fieldset>
                     <div>
                         <div>
@@ -72,5 +73,9 @@
         </div>
         <h4 class="copy">© Copyright 2022 Franco Modesto. <span>Todos los derechos reservados.</span> </h4>
     </footer>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
 </html>

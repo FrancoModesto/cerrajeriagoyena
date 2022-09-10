@@ -155,7 +155,7 @@ p {
 }
 
 hr {
-    margin: 75px 150px 75px 150px;
+    margin: 100px 150px 100px 150px;
     border: none;
     color: #9fa3a9;
     background-color: #9fa3a9;
@@ -541,7 +541,7 @@ fieldset {
     }
 
     hr {
-        margin: 75px 50px 75px 50px;
+        margin: 100px 50px 100px 50px;
     }
 
     .creator {
@@ -647,7 +647,7 @@ fieldset {
     }
 
     hr {
-        margin: 75px 50px 75px 50px;
+        margin: 100px 50px 100px 50px;
     }
 
     .creator {
