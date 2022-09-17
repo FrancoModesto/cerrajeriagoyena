@@ -78,9 +78,9 @@ body {
 
 header {
     z-index: 2;
-    background-color: #1f2124;
     position: sticky;
     top: 0px;
+    background-color: #1f2124;
     box-shadow: 0px 5px 7px rgba(31, 33, 36, 0.5);
 }
 
@@ -140,14 +140,23 @@ main {
 
 h1 {
     font-family: "Secular One", sans-serif;
-    color: rgb(248, 206, 11);
+    color: whitesmoke;
     font-size: 3.5rem;
+    font-weight: bold;
 }
 
 h2 {
     font-family: "Secular One", sans-serif;
+    color: rgb(248, 206, 11);
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: "Secular One", sans-serif;
     color: whitesmoke;
     font-size: 1.8rem;
+    font-weight: normal;
 }
 
 p {
@@ -177,6 +186,7 @@ footer {
 
 .creator-text {
     color: #9fa3a9;
+    font-size: 1.1rem;
     letter-spacing: 1px;
     word-spacing: 1.5px;
     margin-top: 50px;
@@ -232,6 +242,66 @@ footer {
 }
 
 /* Only Index */
+.slider {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    overflow: hidden;
+    border-bottom: #1f2124 1px solid;
+    box-shadow: 0px 5px 7px rgba(31, 33, 36, 0.5);
+}
+
+.slider ul {
+    display: flex;
+    width: 400%;
+    animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+}
+
 .title {
     margin-bottom: 50px;
     text-align: center;
@@ -271,12 +341,10 @@ footer {
 .serv h3 {
     position: absolute;
     bottom: 0;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: whitesmoke;
     margin-bottom: 10px;
     background: rgba(31, 33, 36, 0.7);
     padding: 5px 20px 5px 20px;
+    font-size: 1.2rem;
 }
 
 .serv img {
@@ -313,14 +381,13 @@ footer {
     border-right: #1f2124 solid 1px;
 }
 
-.prod h2 {
+.prod h3 {
     grid-area: tit;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding-left: 15px;
-    font-weight: normal;
 }
 
 .prod .desc {
@@ -351,7 +418,7 @@ footer {
     margin-bottom: 50px;
 }
 
-.about h1 {
+.about h2 {
     margin-bottom: 15px;
 }
 
@@ -401,7 +468,7 @@ footer {
     margin-bottom: 75px;
 }
 
-.contact h1 span {
+.contact h2 span {
     color: whitesmoke;
 }
 
@@ -417,7 +484,7 @@ footer {
     transform: scale(1.1);
 }
 
-.mail h1 {
+.mail h2 {
     margin-bottom: 15px;
 }
 
@@ -536,7 +603,7 @@ fieldset {
         margin-left: 75px;
     }
 
-    h1 {
+    h2 {
         font-size: 3rem;
     }
 
@@ -559,6 +626,10 @@ fieldset {
     }
 
     /* Only Index */
+    .slider {
+        margin-bottom: 100px;
+    }
+
     .container-servs {
         grid-template-columns: repeat(1, 350px);
         grid-template-rows: repeat(8, 200px);
@@ -583,7 +654,7 @@ fieldset {
     }
 
     /* Only About */
-    .about h1 {
+    .about h2 {
         text-align: center;
     }
 
@@ -624,7 +695,7 @@ fieldset {
         height: 300px;
     }
 
-    .creator h3 {
+    .creator-text {
         font-size: 1rem;
     }
 
@@ -642,7 +713,7 @@ fieldset {
         margin-left: 75px;
     }
 
-    h1 {
+    h2 {
         font-size: 3rem;
     }
 
@@ -665,6 +736,10 @@ fieldset {
     }
 
     /* Only Index */
+    .slider {
+        margin-bottom: 100px;
+    }
+
     .container-servs {
         grid-template-columns: repeat(1, 300px);
         grid-template-rows: repeat(8, 200px);
@@ -693,7 +768,7 @@ fieldset {
     }
 
     /* Only About */
-    .about h1 {
+    .about h2 {
         text-align: center;
     }
 
@@ -706,7 +781,7 @@ fieldset {
     }
 
     /* Only Contact */
-    .wap h1 span {
+    .wap h2 span {
         font-size: 2.5rem;
     }
 
