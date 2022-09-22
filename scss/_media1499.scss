@@ -1,0 +1,11 @@
+@media screen and (max-width: 1499px) {
+    /* Only Index */
+    .container-servs {
+        grid-template-columns: repeat(2, 350px);
+        grid-template-rows: repeat(4, 200px);
+    }
+
+    .prod {
+        grid-template-columns: 200px 200px 500px;
+    }
+}
