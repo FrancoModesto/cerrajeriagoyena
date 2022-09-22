@@ -1,4 +1,5 @@
 @media screen and (max-width: 479px) {
+
     /* All */
     .brand img {
         width: 80px;
@@ -22,6 +23,7 @@
 
     .copy {
         font-size: 0.9rem;
+
         span::before {
             content: "\A";
             white-space: pre;
@@ -76,13 +78,16 @@
             "img"
             "tit"
             "desc";
+
         h3 {
             padding-left: 0px;
         }
+
         p {
             text-align: center;
             padding-right: 0px;
         }
+
         &:hover {
             transform: scale(1);
         }
