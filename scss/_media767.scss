@@ -70,12 +70,16 @@
             "desc";
 
         h3 {
-            padding-left: 0;
+            padding: 0.3em;
         }
 
         p {
             text-align: center;
             padding-right: 0;
+
+            &:hover {
+                padding-right: 0.3em;
+            }
         }
 
         &:hover {

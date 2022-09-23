@@ -635,11 +635,14 @@ fieldset {
     grid-template-areas: "img" "tit" "desc";
   }
   .prod h3 {
-    padding-left: 0;
+    padding: 0.3em;
   }
   .prod p {
     text-align: center;
     padding-right: 0;
+  }
+  .prod p:hover {
+    padding-right: 0.3em;
   }
   .prod:hover {
     transform: scale(1);
@@ -727,11 +730,14 @@ fieldset {
     grid-template-areas: "img" "tit" "desc";
   }
   .prod h3 {
-    padding-left: 0;
+    padding: 0.3em;
   }
   .prod p {
     text-align: center;
     padding-right: 0;
+  }
+  .prod p:hover {
+    padding-right: 0.3em;
   }
   .prod:hover {
     transform: scale(1);
