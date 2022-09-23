@@ -2,11 +2,16 @@
 
     /* Only Index */
     .container-servs {
-        grid-template-columns: repeat(2, 350px);
-        grid-template-rows: repeat(4, 200px);
+        grid-template-columns: repeat(2, 22em);
+        grid-template-rows: repeat(4, 12em);
     }
 
     .prod {
-        grid-template-columns: 200px 200px 500px;
+        grid-template-columns: 12em 12em 30em;
+    }
+
+    /* Only About */
+    .about-sentence p {
+        max-width: 50%;
     }
 }

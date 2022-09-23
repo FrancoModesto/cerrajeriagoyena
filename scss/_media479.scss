@@ -1,12 +1,16 @@
 @media screen and (max-width: 479px) {
 
     /* All */
-    .brand img {
-        width: 80px;
-    }
+    .brand {
+        img {
+            width: 5em;
+        }
 
-    .brand h1 {
-        font-size: 1.5rem;
+        h1 {
+            margin-right: 0.8em;
+            /* Para dar una mayor sensación de centrado */
+            font-size: 1.5rem;
+        }
     }
 
     .menu li {
@@ -14,7 +18,7 @@
     }
 
     footer {
-        height: 300px;
+        height: 18em;
     }
 
     .creator-text {
@@ -31,8 +35,8 @@
     }
 
     main {
-        margin-right: 75px;
-        margin-left: 75px;
+        margin-right: 5em;
+        margin-left: 5em;
     }
 
     h2 {
@@ -40,7 +44,7 @@
     }
 
     hr {
-        margin: 100px 50px 100px 50px;
+        margin: 5em 3em 5em 3em;
     }
 
     .creator {
@@ -48,44 +52,44 @@
     }
 
     .creator-text {
-        margin-right: 0px;
-        margin-bottom: 25px;
+        margin-right: 0;
+        margin-bottom: 1.5em;
     }
 
     .creator-menu {
-        margin-top: 0px;
-        margin-bottom: 35px;
+        margin-top: 0;
+        margin-bottom: 2em;
     }
 
     /* Only Index */
     .slider {
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
     .container-servs {
-        grid-template-columns: repeat(1, 300px);
-        grid-template-rows: repeat(8, 200px);
+        grid-template-columns: repeat(1, 18em);
+        grid-template-rows: repeat(8, 12em);
     }
 
     .serv:hover {
-        transform: scale(1.1);
+        transform: scale(1.08);
     }
 
     .prod {
-        grid-template-rows: 200px 100px 400px;
-        grid-template-columns: 300px;
+        grid-template-rows: 12em 5em 25em;
+        grid-template-columns: 18em;
         grid-template-areas:
             "img"
             "tit"
             "desc";
 
         h3 {
-            padding-left: 0px;
+            padding-left: 0;
         }
 
         p {
             text-align: center;
-            padding-right: 0px;
+            padding-right: 0;
         }
 
         &:hover {
@@ -94,12 +98,18 @@
     }
 
     /* Only About */
-    .about p {
-        max-width: 300px;
+    .about {
+        p {
+            max-width: 100%;
+        }
+
+        iframe {
+            max-width: 18em;
+        }
     }
 
-    .about iframe {
-        max-width: 300px;
+    .about-sentence p {
+        max-width: 90%;
     }
 
     /* Only Contact */
@@ -108,10 +118,10 @@
     }
 
     fieldset {
-        padding: 35px 25px 35px 25px;
+        padding: 2em 1.5em 2em 1.5em;
     }
 
     .contact-cell {
-        width: 250px;
+        width: 15em;
     }
 }
