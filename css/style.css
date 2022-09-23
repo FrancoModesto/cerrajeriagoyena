@@ -558,7 +558,7 @@ fieldset {
     grid-template-rows: repeat(4, 12em);
   }
   .prod {
-    height: 60vmin;
+    height: 60vmax;
     margin-bottom: 2em;
     grid-template-columns: auto;
     grid-template-rows: 35% 15% auto;
