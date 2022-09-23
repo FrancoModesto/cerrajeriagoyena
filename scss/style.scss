@@ -355,57 +355,56 @@ footer {
     &:hover {
         z-index: 1;
         opacity: 1;
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
 }
 
 .prod {
+    width: 90%;
+    height: 22vmin;
+    margin-bottom: 1.5em;
+
     display: grid;
-    grid-template-columns: 18em 18em 45em;
-    grid-template-rows: 12em;
-    grid-template-areas: "img tit desc";
-    margin-top: 1em;
-    margin-bottom: 1em;
+    grid-template-columns: 25% 25% auto;
+
+    overflow: hidden;
     background: $header-black-trans;
     border: $header-black solid 0.05em;
     box-shadow: $common-shadow;
     transition: all 0.3s ease;
 
-    .son {
-        width: 100%;
-        height: 100%;
-    }
-
-    img {
-        grid-area: img;
-        object-fit: cover;
-        border-right: $header-black solid 0.05em;
-    }
-
-    h3 {
-        grid-area: tit;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .prod-cell {
+        overflow: hidden;
         text-align: center;
-        padding-left: 1em;
+    }
+
+    .img {
+        border-right: $header-black solid 0.05em;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .tit {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
     }
 
     .desc {
-        margin: 1em;
-    }
-
-    p {
-        grid-area: desc;
-        padding-right: 1em;
         text-align: justify;
-        overflow: hidden;
+        margin: 1em;
 
         &::-webkit-scrollbar {
-            width: 0.3em;
+            width: 0.4em;
         }
 
         &:hover {
+            padding-right: 1em;
             overflow-y: scroll;
         }
     }
@@ -527,7 +526,7 @@ fieldset {
     padding-bottom: 0.5em;
 
     &::-webkit-scrollbar {
-        width: 0.3em;
+        width: 0.4em;
     }
 }
 

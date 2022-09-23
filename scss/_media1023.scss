@@ -10,12 +10,15 @@
         grid-template-rows: repeat(4, 12em);
     }
 
-    .serv:hover {
-        transform: scale(1.1);
-    }
-
     .prod {
-        grid-template-columns: 12em 10em 24em;
+        height: 60vmin;
+        margin-bottom: 2em;
+        grid-template-columns: auto;
+        grid-template-rows: 35% 15% auto;
+
+        .desc {
+            text-align: center;
+        }
 
         &:hover {
             transform: scale(1);

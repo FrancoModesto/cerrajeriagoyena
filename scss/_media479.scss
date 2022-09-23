@@ -72,28 +72,18 @@
     }
 
     .serv:hover {
-        transform: scale(1.08);
+        transform: scale(1.075);
     }
 
     .prod {
-        grid-template-rows: 12em 5em 25em;
-        grid-template-columns: 18em;
-        grid-template-areas:
-            "img"
-            "tit"
-            "desc";
+        width: 80vw;
+        height: 60vmax;
+        margin-bottom: 2em;
+        grid-template-columns: auto;
+        grid-template-rows: 30% 20% auto;
 
-        h3 {
-            padding: 0.3em;
-        }
-
-        p {
+        .desc {
             text-align: center;
-            padding-right: 0;
-
-            &:hover {
-                padding-right: 0.3em;
-            }
         }
 
         &:hover {
