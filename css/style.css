@@ -650,7 +650,7 @@ fieldset {
   }
   /* Only Contact */
   fieldset {
-    padding: 2em 1.5em 2em 1.5em;
+    padding: 1.8em 1.2em 1.8em 1.2em;
   }
   .contact-cell {
     width: 24em;
@@ -713,7 +713,7 @@ fieldset {
     grid-template-rows: repeat(8, 12em);
   }
   .serv:hover {
-    transform: scale(1.075);
+    transform: scale(1.03);
   }
   .prod {
     width: 80vw;
@@ -743,7 +743,7 @@ fieldset {
     font-size: 2.5rem;
   }
   fieldset {
-    padding: 2em 1.5em 2em 1.5em;
+    padding: 1.5em 1em 1.5em 1em;
   }
   .contact-cell {
     width: 15em;
