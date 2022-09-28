@@ -8,9 +8,9 @@ $wap-green: rgb(0, 255, 0);
 
 $common-shadow: 0 0.3em 0.5em $header-black-trans;
 
-@mixin flexDis($ta, $jc) {
+@mixin flexDis($ai, $jc) {
     display: flex;
-    text-align: $ta;
+    align-items: $ai;
     justify-content: $jc;
 }
 
