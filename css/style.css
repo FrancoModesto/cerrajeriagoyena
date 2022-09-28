@@ -31,8 +31,8 @@ body {
   width: 3em;
   border-radius: 50%;
   display: flex;
+  text-align: center;
   justify-content: center;
-  align-items: center;
 }
 
 .goTopButton {
@@ -55,8 +55,8 @@ body {
 .wapLogo {
   width: 3.5em;
   display: flex;
+  text-align: center;
   justify-content: center;
-  align-items: center;
 }
 
 .wapButton {
@@ -83,8 +83,8 @@ header {
 
 .brand {
   display: flex;
+  text-align: center;
   justify-content: center;
-  align-items: center;
 }
 
 .brand h1 {
@@ -174,8 +174,8 @@ footer {
 
 .creator {
   display: flex;
+  text-align: center;
   justify-content: center;
-  align-items: center;
 }
 
 .creator-text {
@@ -200,7 +200,7 @@ footer {
 .creator-menu {
   list-style-type: none;
   display: flex;
-  align-items: center;
+  text-align: center;
   justify-content: center;
   margin-top: 3em;
   margin-bottom: 1.8em;
@@ -213,7 +213,7 @@ footer {
 
 .creator-menu li a {
   display: flex;
-  align-items: center;
+  text-align: center;
   justify-content: center;
   border-radius: 50%;
   box-shadow: 0 0.3em 1em #1f2124;
@@ -313,6 +313,7 @@ footer {
   width: 100%;
   position: relative;
   display: flex;
+  text-align: unset;
   justify-content: center;
   background-color: #1f2124;
   border: #1f2124 solid 0.05em;
@@ -373,7 +374,7 @@ footer {
 
 .prod .tit {
   display: flex;
-  align-items: center;
+  text-align: center;
   justify-content: center;
   padding: 1em;
 }
@@ -422,7 +423,7 @@ footer {
 
 .about-sentence {
   display: flex;
-  align-items: center;
+  text-align: center;
   justify-content: center;
   margin-bottom: 5em;
 }
