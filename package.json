@@ -1,7 +1,7 @@
 {
-  "name": "cerrajeria-goyena-web---franco-modesto",
+  "name": "cerrajeria-goyena-web-franco-modesto",
   "version": "1.0.0",
-  "description": "",
+  "description": "website de cerrajeria goyena, con info y contacto",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
