@@ -389,14 +389,11 @@ footer {
     .desc {
         text-align: justify;
         margin: 1em;
+        padding-right: 1em;
+        overflow-y: auto;
 
         &::-webkit-scrollbar {
             width: 0.4em;
-        }
-
-        &:hover {
-            padding-right: 1em;
-            overflow-y: scroll;
         }
     }
 
