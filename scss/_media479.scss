@@ -35,8 +35,8 @@
     }
 
     main {
-        margin-right: 5em;
-        margin-left: 5em;
+        margin-right: 3em;
+        margin-left: 3em;
     }
 
     h2 {
@@ -81,6 +81,11 @@
         margin-bottom: 2em;
         grid-template-columns: auto;
         grid-template-rows: 30% 20% auto;
+
+        .img {
+            border-right: none;
+            border-bottom: $header-black solid 0.05em;
+        }
 
         .desc {
             text-align: center;

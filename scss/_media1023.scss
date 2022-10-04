@@ -20,6 +20,11 @@
         grid-template-columns: auto;
         grid-template-rows: 35% 15% auto;
 
+        .img {
+            border-right: none;
+            border-bottom: $header-black solid 0.05em;
+        }
+
         .desc {
             text-align: center;
         }

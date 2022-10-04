@@ -21,8 +21,8 @@
     }
 
     main {
-        margin-right: 5em;
-        margin-left: 5em;
+        margin-right: 4em;
+        margin-left: 4em;
     }
 
     h2 {
@@ -63,6 +63,11 @@
         grid-template-columns: auto;
         grid-template-rows: 30% 20% auto;
 
+        .img {
+            border-right: none;
+            border-bottom: $header-black solid 0.05em;
+        }
+
         .desc {
             text-align: center;
         }
@@ -84,7 +89,7 @@
     }
 
     .about-sentence p {
-        max-width: 50%;
+        max-width: 60%;
     }
 
     /* Only Contact */

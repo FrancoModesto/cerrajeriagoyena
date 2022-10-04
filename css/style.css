@@ -564,6 +564,10 @@ fieldset {
     grid-template-columns: auto;
     grid-template-rows: 35% 15% auto;
   }
+  .prod .img {
+    border-right: none;
+    border-bottom: #1f2124 solid 0.05em;
+  }
   .prod .desc {
     text-align: center;
   }
@@ -599,8 +603,8 @@ fieldset {
     white-space: pre;
   }
   main {
-    margin-right: 5em;
-    margin-left: 5em;
+    margin-right: 4em;
+    margin-left: 4em;
   }
   h2 {
     font-size: 3rem;
@@ -633,6 +637,10 @@ fieldset {
     grid-template-columns: auto;
     grid-template-rows: 30% 20% auto;
   }
+  .prod .img {
+    border-right: none;
+    border-bottom: #1f2124 solid 0.05em;
+  }
   .prod .desc {
     text-align: center;
   }
@@ -647,7 +655,7 @@ fieldset {
     max-width: 28em;
   }
   .about-sentence p {
-    max-width: 50%;
+    max-width: 60%;
   }
   /* Only Contact */
   fieldset {
@@ -685,8 +693,8 @@ fieldset {
     white-space: pre;
   }
   main {
-    margin-right: 5em;
-    margin-left: 5em;
+    margin-right: 3em;
+    margin-left: 3em;
   }
   h2 {
     font-size: 3rem;
@@ -722,6 +730,10 @@ fieldset {
     margin-bottom: 2em;
     grid-template-columns: auto;
     grid-template-rows: 30% 20% auto;
+  }
+  .prod .img {
+    border-right: none;
+    border-bottom: #1f2124 solid 0.05em;
   }
   .prod .desc {
     text-align: center;
