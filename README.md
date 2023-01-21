@@ -5,7 +5,7 @@
 
 ## Herramientas Utilizadas
 - Proyecto hecho en el editor de Visual Studio Code, a partir de los lenguajes HTML5, CSS3 y Javascript.
-- Se utilizó además el framework de WOW.js.
+- Se utilizó además Node.js, Animate.css y WOW.js.
 
 ## Link al Sitio Web (hosteado en 000webhost)
 - https://cerrajeriagoyena.000webhostapp.com
